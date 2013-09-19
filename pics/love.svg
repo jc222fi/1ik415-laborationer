@@ -1,0 +1,12 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" height="121" width="216" y="193" x="202" stroke-width="5" stroke="#000000" fill="#4c9900"/>
+  <ellipse ry="112" rx="118" id="svg_2" cy="129" cx="184" stroke-width="5" stroke="#000000" fill="#000cff"/>
+  <path id="svg_3" d="m337.589478,162.119202c26.536255,-76.124199 130.500519,0 0,97.875061c-130.499481,-97.875061 -26.535095,-173.99926 0,-97.875061z" stroke-width="5" stroke="#000000" fill="#ff00ff"/>
+  <path id="svg_4" d="m182.444992,93.808342c34.972488,-100.333344 172.000015,0 0,128.999992c-171.999996,-128.999992 -34.972473,-229.333336 0,-128.999992z" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_5" y="132" x="177" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#ffffff">Make love</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_6" y="200" x="338" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#00007f">Not war</text>
+ </g>
+</svg>
