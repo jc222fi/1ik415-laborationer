@@ -3,41 +3,52 @@
     <head>
         <meta charset="utf-8" />
         <title>Johannas blogg</title>
-        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
     <img src="pics/logo.png" alt="Logotyp" />
-        <h1 id="start">Johannas laborationsblogg</h1>
-        <ul>
-            <li><a href="#Start">Start</a></li>
-            <li><a href="pages/presentation.html">Presentation</a></li>
-            <li><a href="pages/laborationer.html">Laborationer</a></li>
-            <li><a href="pages/kontakt.html">Kontakt</a></li>
-        </ul>
-        <h2 id="video" />En videotagg</h2>
-        <p>Media är ju väldigt viktigt när man gör en hemsida, och här kommer ett
-        ett exempel på en snygg liten videotagg. Vill tacka 
-        <a href="http://www.bigbuckbunny.org/index.php/trailer-page/index.php">Big Buck Bunny</a>
-        för lånet av trailern!
-        <video controls poster="" >
-            <source src="videos/bunny.mp4" type="video/mp4" />
-            <source src="videos/bunny.ogg" type="video/ogg" />
-        </video>
-        </p>
-        <h2  id="vektorbild" />En bild</h2>
-        <p>Här kommer då blogginlägg nummer två. Har gjort vektorkonst, lite
-        annorlunda än den konst jag brukar skapa ;-)
-        <p><img src="pics/love.svg" alt="Make love not war" /></p>
-        </p>
-        <p>Skrivet av <i>Johanna</i>, 2013-09-19</p>
-        <h2>Min grymma kursblogg!</h2>
-        <p>Här har jag startat min första blogg, och här kommer jag att lägga
-        upp mina laborationer som jag gör under kursens gång.
-        </p>
-        <p>Skrivet av <i>Johanna</i>, 2013-09-16</p>
+    <div id="container">
+        <header class="headline" id="header">
+            <h1 id="start">Johannas laborationsblogg</h1>
+        </header>
         
+        <div class="menu" id="navigation">
+            <ul>
+                <li><a href="#Start">Start</a></li>
+                <li><a href="pages/presentation.html">Presentation</a></li>
+                <li><a href="pages/laborationer.html">Laborationer</a></li>
+                <li><a href="pages/kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
         
+        <div class="main" id="content">
+            <h2 id="video">En videotagg</h2>
+            <p>Media är ju väldigt viktigt när man gör en hemsida, och här kommer ett
+            ett exempel på en snygg liten videotagg. Vill tacka 
+            <a href="http://www.bigbuckbunny.org/index.php/trailer-page/index.php">Big Buck Bunny</a>
+            för lånet av trailern!
+            <video controls>
+                <source src="videos/bunny.mp4" type="video/mp4" />
+                <source src="videos/bunny.ogg" type="video/ogg" />
+            </video>
+            </p>
+            <h2  id="vektorbild">En bild</h2>
+            <p>Här kommer då blogginlägg nummer två. Har gjort vektorkonst, lite
+            annorlunda än den konst jag brukar skapa ;-)
+            <p><img src="pics/love.svg" alt="Make love not war" /></p>
+            <p>Skrivet av <i>Johanna</i>, 2013-09-19</p>
+            <h2>Min grymma kursblogg!</h2>
+            <p>Här har jag startat min första blogg, och här kommer jag att lägga
+            upp mina laborationer som jag gör under kursens gång.
+            </p>
+            <p>Skrivet av <i>Johanna</i>, 2013-09-16</p>
+        </div>
+        
+        <footer class="" id="footer">
         <p>Ansvarig för materialet på denna sida är Johanna Larsson Cornejo</p>
+        </footer>
+        
+    </div>
     </body>
     
 </html>
