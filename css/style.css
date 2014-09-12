@@ -31,20 +31,19 @@ time, mark, audio, video {
 	border:1px solid black;
 }
 #header{
-	max-width:1190;
+	max-width:1098;
    padding:20px;
    border:1px solid black;
 }
 #nav{
 	float:left;
-	width:200px;
+	width:150px;
 	margin-top:5px;
    border:1px solid black;
 }
 #content{
 	float:right;
-	margin-left:5px;
-	width:890px;
+	width:946px;
 	border:1px solid black;
 }
 #footer{
