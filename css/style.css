@@ -28,28 +28,55 @@ time, mark, audio, video {
 #container{
 	max-width:1100px;
 	margin:0 auto;
-	border:1px solid black;
 }
 #header{
 	max-width:1098;
    padding:20px;
-   border:1px solid black;
 }
 #nav{
 	float:left;
 	width:150px;
 	margin-top:5px;
-   border:1px solid black;
 }
 #content{
 	float:right;
 	width:946px;
-	border:1px solid black;
 }
 #footer{
 	clear:both;
-	padding:5px;
-	border:1px solid black;
+	padding:20px;
+}
+
+/*
+Background body:#D7E4E8
+Background container: #FFFFFF
+Background header: #A7CDDC
+Background nav: #381B43
+Background content: #EFE4B0
+Background footer:#22373C
+Text colour: #22373C
+*/
+
+body{
+	background-color:#D7E4E8;
+}
+#container{
+	background-color:#FFFFFF;
+}
+#header{
+	background-color:#A7CDDC;
+	color:#6B6B6B;
+}
+#nav{
+	background-color:#381B43;
+}
+#content{
+	background-color:#EFE4B0;
+	color:#22373C;
+}
+#footer{
+	background-color:#22373C;
+	color:#FFFFFF;
 }
 
 /* HTML5 display-role reset for older browsers */
