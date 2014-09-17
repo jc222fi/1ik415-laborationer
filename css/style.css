@@ -31,7 +31,7 @@ time, mark, audio, video {
 }
 #header{
 	max-width:1098;
-	height:50px;
+	height:100px;
 }
 #nav{
 	float:left;
@@ -40,7 +40,7 @@ time, mark, audio, video {
 }
 #content{
 	float:right;
-	width:946px;
+	width:900px;
 }
 #footer{
 	clear:both;
@@ -66,14 +66,16 @@ body{
 }
 #header{
 	background-color:#A7CDDC;
-	color:#6B6B6B;
-	font-family:"Arial Black", Gadget, sans-serif;
-	font-size:30px;
-	padding:20px;
 }
 	#header img{
 		float:right;
 		}
+	h1{
+		color:#6B6B6B;
+		font-family:"Arial Black", Gadget, sans-serif;
+		font-size:30px;
+		padding-bottom:20px;
+	}
 #nav{
 	background-color:#381B43;
 }
@@ -88,11 +90,39 @@ body{
 		#nav a:focus{background-color:white;text-decoration:underline;color:black;}
 		#nav a:hover{background-color:white;text-decoration:underline;color:black;}
 		.active{background-color:#22373C;text-decoration:none;}
+		#nav li{
+			font-family:"Arial Black", Gadget, sans-serif;
+		}
 
 #content{
+	padding:20px;
 	background-color:#EFE4B0;
 	color:#22373C;
 }
+	h2, h4, legend{
+		font-family:"Arial Black", Gadget, sans-serif;
+		line-height:40px;
+	}
+	h4{
+		font-size:small;
+	}
+	p, li, table, dl, form{
+		font-family:"Helvetica", "Verdana", sans-serif;
+		line-height:20px;
+	}
+	.post, p em{
+		font-family:"Comic Sans MS", cursive, sans-serif;
+	}
+	p em{
+		font-style:italic;
+		color:#8B4513;
+	}
+	#content a:link{color:#7B68EE; text-decoration:none;}
+	#content a:visited{color:#8B0000; text-decoration:none;}
+	#content a:focus{color:#778899; text-decoration:underline;}
+	#content a:hover{color:#778899; text-decoration:underline;}
+	#content a:active{color:white; text-decoration:none;}
+	
 #footer{
 	background-color:#22373C;
 	color:#FFFFFF;
