@@ -112,7 +112,10 @@ body{
 	h2, h3, h4, legend{
 		font-family:Arial, Gadget, sans-serif;
 		font-weight:bold;
-		line-height:40px;
+		line-height:60px;
+	}
+	h2{
+		font-size:25px;
 	}
 	h4, h3{
 		font-size:small;
@@ -124,6 +127,14 @@ body{
 	.post, p em{
 		font-family:"Comic Sans MS", cursive, sans-serif;
 	}
+		/*Bild lånad från http://www.skolbilder.com/Malarbild-blaeckpenna-i19373.html som uttryckligen
+		säger att samtliga bilder får användas i edukativt syfte och icke-kommersiellt bruk*/
+		#content h2.post{
+			background-image:url("pics/bleckpenna.png");
+			background-position:left top;
+			background-repeat:no-repeat;
+			text-indent:50px;
+		}
 	p em{
 		font-style:italic;
 		color:#8B4513;
