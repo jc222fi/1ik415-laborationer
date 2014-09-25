@@ -67,6 +67,9 @@ body{
 #header{
 	background-color:#A7CDDC;
 	color:#6B6B6B;
+	background-image:url("pics/logo.png");
+	background-position:right top;
+	background-repeat:no-repeat;
 	font-family:Arial, Gadget, sans-serif;
 	font-size:30px;
 	font-weight:bolder;
