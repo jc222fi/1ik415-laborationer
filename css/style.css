@@ -66,16 +66,22 @@ body{
 }
 #header{
 	background-color:#A7CDDC;
+	color:#6B6B6B;
+	font-family:Arial, Gadget, sans-serif;
+	font-size:30px;
+	font-weight:bolder;
+	padding:20px;
 }
 	#header img{
 		float:right;
 		}
-	h1{
+	/*h1{
 		color:#6B6B6B;
-		font-family:"Arial Black", Gadget, sans-serif;
+		font-family:Arial, Gadget, sans-serif;
 		font-size:30px;
+		font-weight:bolder;
 		padding-bottom:20px;
-	}
+	}*/
 #nav{
 	background-color:#381B43;
 }
@@ -89,9 +95,10 @@ body{
 		#nav a:visited{background-color:#7F7F7F;text-decoration:none;}
 		#nav a:focus{background-color:white;text-decoration:underline;color:black;}
 		#nav a:hover{background-color:white;text-decoration:underline;color:black;}
-		.active{background-color:#22373C;text-decoration:none;}
+		#nav a.active{background-color:#22373C;text-decoration:none;}
 		#nav li{
-			font-family:"Arial Black", Gadget, sans-serif;
+		   font-family:Arial, Gadget, sans-serif;
+			font-weight:bolder;
 		}
 
 #content{
@@ -99,15 +106,16 @@ body{
 	background-color:#EFE4B0;
 	color:#22373C;
 }
-	h2, h4, legend{
-		font-family:"Arial Black", Gadget, sans-serif;
+	h2, h3, h4, legend{
+		font-family:Arial, Gadget, sans-serif;
+		font-weight:bold;
 		line-height:40px;
 	}
-	h4{
+	h4, h3{
 		font-size:small;
 	}
 	p, li, table, dl, form{
-		font-family:"Helvetica", "Verdana", sans-serif;
+		font-family:Helvetica, Verdana, sans-serif;
 		line-height:20px;
 	}
 	.post, p em{
@@ -117,15 +125,34 @@ body{
 		font-style:italic;
 		color:#8B4513;
 	}
+	table, th, td{
+		border:1px solid black;
+	}
+	thead, tfoot{
+		font-family:Arial, Gadget, sans-serif;
+		font-weight:bold;
+		line-height:25px;
+		text-align:center;
+	}
+	
 	#content a:link{color:#7B68EE; text-decoration:none;}
 	#content a:visited{color:#8B0000; text-decoration:none;}
 	#content a:focus{color:#778899; text-decoration:underline;}
 	#content a:hover{color:#778899; text-decoration:underline;}
 	#content a:active{color:white; text-decoration:none;}
 	
+	.label{
+   	display: inline-block;
+   	width: 170px;
+   	text-align: left;
+   	margin-right: 10px;
+	}
+	
 #footer{
 	background-color:#22373C;
 	color:#FFFFFF;
+	
+	text-align:center;
 }
 
 
