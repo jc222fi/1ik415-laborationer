@@ -94,6 +94,7 @@ body{
 		border:2px solid white;
 		color:white;
 	}
+		/*Länkar i menyn*/
 		#nav a:link{background-color:#381B43; text-decoration:none;}
 		#nav a:visited{background-color:#7F7F7F;text-decoration:none;}
 		#nav a:focus{background-color:white;text-decoration:underline;color:black;}
@@ -114,12 +115,12 @@ body{
 		font-weight:bold;
 		line-height:60px;
 	}
-	h2{
-		font-size:25px;
-	}
-	h4, h3{
-		font-size:small;
-	}
+		h2{
+			font-size:25px;
+		}
+		h4, h3{
+			font-size:small;
+		}
 	p, li, table, dl, form{
 		font-family:Helvetica, Verdana, sans-serif;
 		line-height:20px;
@@ -148,13 +149,21 @@ body{
 		line-height:25px;
 		text-align:center;
 	}
-	
+	/*Övriga länkar som inte är del av menyn*/
 	#content a:link{color:#7B68EE; text-decoration:none;}
 	#content a:visited{color:#8B0000; text-decoration:none;}
 	#content a:focus{color:#778899; text-decoration:underline;}
 	#content a:hover{color:#778899; text-decoration:underline;}
 	#content a:active{color:white; text-decoration:none;}
 	
+	fieldset{ 
+		border:1px solid #22373C;
+		padding:10px;
+		width:600px;
+	}
+	legend{
+		padding:2px;
+	}
 	.label{
    	display: inline-block;
    	width: 170px;
@@ -165,7 +174,6 @@ body{
 #footer{
 	background-color:#22373C;
 	color:#FFFFFF;
-	
 	text-align:center;
 }
 
