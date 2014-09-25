@@ -127,11 +127,15 @@ body{
 		font-family:Helvetica, Verdana, sans-serif;
 		line-height:20px;
 	}
+	p p{
+		margin-top:50px;
+	}
+	img.right, video.right{
+		float:right;
+	}
 	#strong{
 		font-style:italic;
 	}
-		
-		font-style:italic;}
 	/*Överskrift och signatur på mina blogginlägg*/
 	.post, p em{
 		font-family:"Comic Sans MS", cursive, sans-serif;
