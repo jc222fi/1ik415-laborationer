@@ -34,12 +34,12 @@ time, mark, audio, video {
 }
 #nav{
 	float:left;
-	width:150px;
+	width:168px;
 	margin-top:5px;
 }
 #content{
 	float:right;
-	width:900px;
+	width:890px;
 }
 #footer{
 	clear:both;
@@ -85,16 +85,36 @@ body{
 		padding-bottom:20px;
 	}*/
 #nav{
-	background-color:#381B43;
+	background-color:#22373C;
 }
 	#nav a{
 		display:block;
-		width:150px;
-		border:2px solid white;
+		width:168px;
+		height:24px;
+		border:1px solid white;
+		background-image:url(pics/sprite.png);
+		background-repeat:no-repeat;
+		text-indent:26px;
 		color:white;
+		text-decoration:none;
+	}
+	#home:link{background-position:0 -48px;}
+	#home:hover{background-position:0 0;background-color:white;text-decoration:underline;color:black;}
+	
+	#pres:link{background-position:0 -240px;}
+	#pres:hover{background-position:0 -192px;background-color:white;text-decoration:underline;color:black;}
+	
+	#lab:link{background-position:0 -144px;}
+	#lab:hover{background-position:0 -96px;background-color:white;text-decoration:underline;color:black;}
+	
+	#kontakt:link{background-position:0 -336px;}
+	#kontakt:hover{background-position:0 -288px;background-color:white;text-decoration:underline;color:black;}
+	#nav li{
+		font-family:Arial, Gadget, sans-serif;
+		font-weight:bolder;
 	}
 		/*Länkar i menyn*/
-		#nav a:link{background-color:#381B43; text-decoration:none;}
+		/*#nav a:link{background-color:#381B43; text-decoration:none;}
 		#nav a:visited{background-color:#7F7F7F;text-decoration:none;}
 		#nav a:focus{background-color:white;text-decoration:underline;color:black;}
 		#nav a:hover{background-color:white;text-decoration:underline;color:black;}
@@ -102,7 +122,7 @@ body{
 		#nav li{
 		   font-family:Arial, Gadget, sans-serif;
 			font-weight:bolder;
-		}
+		}*/
 
 #content{
 	padding:20px;
