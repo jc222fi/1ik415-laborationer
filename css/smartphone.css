@@ -1,0 +1,28 @@
+}/*Layout*/
+div{
+    display:block;
+}
+#container{
+    max-width:100%;
+	width:320px;
+	margin:0 auto;
+}
+#header{
+	height:100px;
+}
+#nav{
+    max-width:18%;
+    width:106px;
+	margin-top:5px;
+}
+#content{
+	max-width:80%;
+	width:214px;
+	margin-top:5px;
+}
+#footer{
+	clear:both;
+	max-width:96%;
+	width:320px;
+	padding:10px;
+}

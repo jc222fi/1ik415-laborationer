@@ -22,27 +22,30 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
-
-/*Layout*/
+}/*Layout*/
 #container{
-	max-width:1100px;
+   max-width:100%;
+	width:1100px;
 	margin:0 auto;
 }
 #header{
 	height:100px;
 }
 #nav{
-	float:left;
-	width:168px;
+   float:left;
+   max-width:18%;
+   width:168px;
 	margin-top:5px;
 }
 #content{
 	float:right;
-	width:890px;
+	max-width:80%;
+	width:920px;
 }
 #footer{
 	clear:both;
+	max-width:96%;
+	width:1100px;
 	padding:20px;
 }
 
@@ -96,18 +99,17 @@ body{
 		background-repeat:no-repeat;
 		text-indent:26px;
 		color:white;
-		text-decoration:none;
 	}
-	#home:link{background-position:0 -48px;}
-	#home:hover{background-position:0 0;background-color:white;text-decoration:underline;color:black;}
+	#index:link{background-position:0 -48px;text-decoration:none;}
+	#index:hover{background-position:0 0;background-color:white;text-decoration:underline;color:black;}
 	
-	#pres:link{background-position:0 -240px;}
+	#pres:link{background-position:0 -240px;text-decoration:none;}
 	#pres:hover{background-position:0 -192px;background-color:white;text-decoration:underline;color:black;}
 	
-	#lab:link{background-position:0 -144px;}
+	#lab:link{background-position:0 -144px;text-decoration:none;}
 	#lab:hover{background-position:0 -96px;background-color:white;text-decoration:underline;color:black;}
 	
-	#kontakt:link{background-position:0 -336px;}
+	#kontakt:link{background-position:0 -336px;text-decoration:none;}
 	#kontakt:hover{background-position:0 -288px;background-color:white;text-decoration:underline;color:black;}
 	#nav li{
 		font-family:Arial, Gadget, sans-serif;
