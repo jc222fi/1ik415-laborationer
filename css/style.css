@@ -98,17 +98,21 @@ body{
 		text-indent:26px;
 		color:white;
 	}
-	#index:link{background-position:0 -48px;text-decoration:none;}
-	#index:hover{background-position:0 0;background-color:white;text-decoration:underline;color:black;}
+	#index a:link{background-position:0 -48px;text-decoration:none;}
+	#index a:hover{background-position:0 0;background-color:white;text-decoration:underline;color:black;}
+	#index a.active{background-position:0 0;background-color:white;text-decoration:underline;color:black;}
 	
-	#pres:link{background-position:0 -240px;text-decoration:none;}
-	#pres:hover{background-position:0 -192px;background-color:white;text-decoration:underline;color:black;}
+	#pres a:link{background-position:0 -240px;text-decoration:none;}
+	#pres a:hover{background-position:0 -192px;background-color:white;text-decoration:underline;color:black;}
+	#pres a.active{background-position:0 -192px;background-color:white;text-decoration:underline;color:black;}
 	
-	#lab:link{background-position:0 -144px;text-decoration:none;}
-	#lab:hover{background-position:0 -96px;background-color:white;text-decoration:underline;color:black;}
+	#lab a:link{background-position:0 -144px;text-decoration:none;}
+	#lab a:hover{background-position:0 -96px;background-color:white;text-decoration:underline;color:black;}
+	#lab a.active{background-position:0 -96px;background-color:white;text-decoration:underline;color:black;}
 	
-	#kontakt:link{background-position:0 -336px;text-decoration:none;}
-	#kontakt:hover{background-position:0 -288px;background-color:white;text-decoration:underline;color:black;}
+	#kontakt a:link{background-position:0 -336px;text-decoration:none;}
+	#kontakt a:hover{background-position:0 -288px;background-color:white;text-decoration:underline;color:black;}
+	#kontakt a.active{background-position:0 -288px;background-color:white;text-decoration:underline;color:black;}
 	#nav li{
 		font-family:Arial, Gadget, sans-serif;
 		font-weight:bolder;

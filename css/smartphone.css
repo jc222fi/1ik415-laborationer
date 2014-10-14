@@ -1,11 +1,11 @@
-}/*Layout*/
+/*Layout*/
 div{
     display:block;
 }
 #container{
     max-width:100%;
 	width:320px;
-	margin:0 auto;
+	margin:5px auto;
 }
 #header{
 	height:100px;
@@ -17,7 +17,7 @@ div{
 }
 #content{
 	max-width:100%;
-	width:320px;
+	width:280px;
 	margin-top:5px;
 }
 #footer{
@@ -48,7 +48,7 @@ body{
 	background-color:#A7CDDC;
 	color:#6B6B6B;
 	background-image:url("pics/logo.png");
-	background-position:right top;
+	background-position:center top;
 	background-repeat:no-repeat;
 	font-family:Arial, Gadget, sans-serif;
 	font-size:10px;
@@ -80,3 +80,59 @@ body{
 	    font-family:Arial, Gadget, sans-serif;
 		font-weight:bolder;
 	}
+#content{
+	padding:20px;
+	background-color:#EFE4B0;
+	color:#22373C;
+}
+	/*Text och stil på mina rubriker*/
+	h2, h3, h4, legend{
+		font-family:Arial, Gadget, sans-serif;
+		font-weight:bold;
+		line-height:30px;
+	}
+		h2{
+			font-size:25px;
+		}
+		h3, h4{
+			font-size:small;
+		}
+	/*Mer övergripande text och stil*/
+	#strong, p, li, table, dl, form{
+		font-family:Helvetica, Verdana, sans-serif;
+		line-height:20px;
+	}
+	img, video{
+		max-width:100%;
+	}
+	#strong{
+		font-style:italic;
+	}
+	/*Överskrift och signatur på mina blogginlägg*/
+	.post, p em{
+		font-family:"Comic Sans MS", cursive, sans-serif;
+	}
+	
+	/*Signatur på mina blogginlägg*/
+	p em{
+		font-style:italic;
+		color:#8B4513;
+	}
+	/*Tabell*/
+	table, th, td{
+		border:1px solid #22373C;
+		padding:3px;
+	}
+	thead, tfoot{
+		font-family:Arial, Gadget, sans-serif;
+		font-weight:bold;
+		line-height:25px;
+		text-align:center;
+	}
+		tr:nth-of-type(odd){
+			background-color:#22373C;
+			color:white;
+		}
+		tr:nth-of-type(even){
+			background-color:white;
+		}
