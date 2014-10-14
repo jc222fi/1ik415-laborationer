@@ -66,18 +66,32 @@ body{
 	}
 	#nav a{
 	    display:block;
-		width:318px;
+		width:316px;
 		border:1px solid white;
+		background-image:url(pics/sprite.png);
+		background-repeat:no-repeat;
+		text-indent:26px;
 		margin-left:-40px;
+		padding-left:2px;
 		color:white;
 	}
-	#nav a:link{background-color:#381B43; text-decoration:none;}
-	#nav a:visited{background-color:#7F7F7F;text-decoration:none;}
-	#nav a:focus{background-color:white;text-decoration:underline;color:black;}
-	#nav a:hover{background-color:white;text-decoration:underline;color:black;}
-	#nav a.active{background-color:#22373C;text-decoration:none;color:white;}
+	#index a:link{background-position:0 -48px;text-decoration:none;}
+	#index a:hover{background-position:0 0;background-color:white;text-decoration:underline;color:black;}
+	#index a.active{background-position:0 0;background-color:white;text-decoration:underline;color:black;}
+	
+	#pres a:link{background-position:0 -240px;text-decoration:none;}
+	#pres a:hover{background-position:0 -192px;background-color:white;text-decoration:underline;color:black;}
+	#pres a.active{background-position:0 -192px;background-color:white;text-decoration:underline;color:black;}
+	
+	#lab a:link{background-position:0 -144px;text-decoration:none;}
+	#lab a:hover{background-position:0 -96px;background-color:white;text-decoration:underline;color:black;}
+	#lab a.active{background-position:0 -96px;background-color:white;text-decoration:underline;color:black;}
+	
+	#kontakt a:link{background-position:0 -336px;text-decoration:none;}
+	#kontakt a:hover{background-position:0 -288px;background-color:white;text-decoration:underline;color:black;}
+	#kontakt a.active{background-position:0 -288px;background-color:white;text-decoration:underline;color:black;}
 	#nav li{
-	    font-family:Arial, Gadget, sans-serif;
+		font-family:Arial, Gadget, sans-serif;
 		font-weight:bolder;
 	}
 #content{
