@@ -20,9 +20,8 @@ div{
 	margin-top:5px;
 }
 #footer{
-	clear:both;
-	width:96%;
-	max-width:320px;
+	max-width:96%;
+	width:300px;
 	padding:10px;
 }
 
@@ -175,3 +174,27 @@ body{
 		margin-left:15px;
 		list-style-type:decimal;
 	}
+	fieldset{ 
+		display:block;
+		border:1px solid #22373C;
+		padding:10px;
+		max-width:90%;
+		width:360px;
+	}
+	legend{
+		padding:2px;
+	}
+	.label{
+	display:block;
+   	width: 170px;
+   	text-align: left;
+   	margin-right: 10px;
+	}
+	#kontaktinfo, input{
+		max-width:80%;
+	}
+#footer{
+	background-color:#22373C;
+	color:#FFFFFF;
+	text-align:center;
+}
