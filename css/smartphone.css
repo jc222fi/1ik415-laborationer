@@ -159,3 +159,19 @@ body{
 	#content a:focus{color:#778899; text-decoration:underline;}
 	#content a:hover{color:#778899; text-decoration:underline;}
 	#content a:active{color:white; text-decoration:none;}
+
+	/*Listor exklusive menyn*/
+	#content ul li{
+		margin-left:20px;
+		list-style-type:circle;
+	}
+	#content dd{
+		text-indent:15px;
+	}
+	#content .laborationer{
+		list-style-type:none;
+	}
+	ol li{
+		margin-left:15px;
+		list-style-type:decimal;
+	}
