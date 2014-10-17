@@ -136,6 +136,7 @@ body{
 	}
 	/*Tabell*/
 	table, th, td{
+		border-collapse:collapse;
 		border:1px solid #22373C;
 		padding:3px;
 	}
@@ -152,3 +153,9 @@ body{
 		tr:nth-of-type(even){
 			background-color:white;
 		}
+	/*Övriga länkar som inte är del av menyn*/
+	#content a:link{color:#7B68EE; text-decoration:none;}
+	#content a:visited{color:#8B0000; text-decoration:none;}
+	#content a:focus{color:#778899; text-decoration:underline;}
+	#content a:hover{color:#778899; text-decoration:underline;}
+	#content a:active{color:white; text-decoration:none;}
