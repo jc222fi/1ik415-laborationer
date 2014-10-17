@@ -4,7 +4,7 @@ div{
 }
 #container{
     max-width:100%;
-	width:320px;
+    width:340px;
 	margin:5px auto;
 }
 #header{
@@ -12,18 +12,17 @@ div{
 }
 #nav{
     max-width:100%;
-    width:320px;
+    width:360px;
 	margin-top:5px;
 }
 #content{
 	max-width:100%;
-	width:280px;
 	margin-top:5px;
 }
 #footer{
 	clear:both;
-	max-width:96%;
-	width:320px;
+	width:96%;
+	max-width:320px;
 	padding:10px;
 }
 
@@ -64,14 +63,20 @@ body{
 	#nav ul{
 	    list-style-type:none;
 	}
+	#nav li{
+		font-family:Arial, Gadget, sans-serif;
+		font-weight:bolder;
+		margin-left:-40px;
+	}
 	#nav a{
 	    display:block;
-		width:316px;
+		/*width:347px;*/
+		max-width:100%;
+		height:24px;
 		border:1px solid white;
 		background-image:url(pics/sprite.png);
 		background-repeat:no-repeat;
 		text-indent:26px;
-		margin-left:-40px;
 		padding-left:2px;
 		color:white;
 	}
@@ -90,12 +95,9 @@ body{
 	#kontakt a:link{background-position:0 -336px;text-decoration:none;}
 	#kontakt a:hover{background-position:0 -288px;background-color:white;text-decoration:underline;color:black;}
 	#kontakt a.active{background-position:0 -288px;background-color:white;text-decoration:underline;color:black;}
-	#nav li{
-		font-family:Arial, Gadget, sans-serif;
-		font-weight:bolder;
-	}
+	
 #content{
-	padding:20px;
+	padding:10px;
 	background-color:#EFE4B0;
 	color:#22373C;
 }
