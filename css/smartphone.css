@@ -191,11 +191,8 @@ body{
    	text-align: left;
    	margin-right: 10px;
 	}
-	input{
+	input[type=text], input[type=submit], input[type=email], textarea{
 		width:100%;
-	}
-	input[type=radio]{
-		margin-left:-123px;
 	}
 #footer{
 	background-color:#22373C;
