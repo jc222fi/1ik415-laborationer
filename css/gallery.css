@@ -1,0 +1,54 @@
+/*Layout, färg och text*/
+body{
+    background-color:#177a6c;
+    font-family: 'Indie Flower', cursive;
+}
+section{
+    width:900px;
+    margin:0 auto;
+}
+#images a{
+    width:200px;
+    float:left;
+    background-color:white;
+    padding: 10px 10px 30px 10px;
+    box-shadow:10px 10px 60px 15px #0e473f;
+    -webkit-transform:rotate(3deg);
+    transform:rotate(3deg);
+    text-decoration:none;
+    text-align:center;
+    font-size:30px;
+    z-index:0;
+}
+    #images a:nth-child(3n){
+        -webkit-transform:rotate(-5deg);
+        transform:rotate(-5deg);
+        font-size:25px;
+    }
+    #images a:nth-child(4n){
+        -webkit-transform:rotate(7deg);
+        transform:rotate(7deg);
+        font-size:20px;
+    }
+    #images a:after{
+        color:black;
+        content:attr(title);
+    }
+img{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+/*Beteende*/
+#images a:hover, #images a:focus{
+    position:relative;
+    z-index:30;
+    -webkit-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg);
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+    box-shadow:20px 20px 60px 15px #0e473f;
+}
