@@ -66,6 +66,9 @@ body{
 	background-color:#D7E4E8;
 	
 }
+header, section, article, main, footer{
+	display:block;
+}
 #container{
 	background-color:#FFFFFF;
 }
@@ -149,7 +152,7 @@ body{
 			font-size:small;
 		}
 	/*Mer övergripande text och stil*/
-	#strong, p, li, table, dl, form{
+	#strong, p, li, table, dl, form, label{
 		font-family:Helvetica, Verdana, sans-serif;
 		line-height:20px;
 	}
@@ -220,6 +223,19 @@ body{
    	width: 170px;
    	text-align: left;
    	margin-right: 10px;
+	}
+	.comments, .name{
+		font-family:Helvetica, Verdana, sans-serif;
+		line-height:20px;
+		font-weight:bold;
+	}
+	.kommentar{
+		font-weight:normal;
+		font-style:italic;
+	}
+	#kommentar1, #kommentar2, #kommentar3, #kommentar4, #kommentar5, #kommentar6{
+		width:100%;
+		height:80px;
 	}
 	/*Listor exklusive menyn*/
 	#content ul li{
